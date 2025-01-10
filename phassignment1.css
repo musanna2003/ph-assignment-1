@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body{
+    padding: 0px;
+    margin: 0px;
+    background: rgb(245, 245, 245);
+}
 
 .banar1{
     width: 1011px;
@@ -41,7 +46,6 @@
 .banar1_txt h1{
     width: 490px;
     height: 159px;
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -77,4 +81,182 @@
     text-align: center;
     padding: 0px;
     margin: 0px;
+}
+
+
+.section2{
+    width: 1011px;
+    height: 604px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 25;
+    padding: 0px;
+}
+.section2_txt{
+    width: 1010px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section2_txt h1{
+    padding: 0px;
+    margin: 0px;
+    width: 1010px;
+    height: 38px;
+    /*font*/
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section2_txt p{
+    padding: 0px;
+    margin: 0px;
+    width: 1010px;
+    height: 38px;
+    /*font*/
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section2_card{
+    width: 1011px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card{
+    width: 324px;
+    height: 257px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:start;
+}
+.card h1{
+    padding: 0px;
+    margin: 0px auto;
+    width: 274px;
+    height: 19px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card p{
+    padding: 0px;
+    margin: 0px auto;
+    width: 274px;
+    height: 57px;
+    /*font*/
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card button{
+    width: 96px;
+    height: 32px;
+    margin: 0px 27px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+.card img{
+    margin-left: 27px;
+}
+.card1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card1 button{
+    background: rgb(84, 144, 245);
+}
+.card2{
+    background: rgb(198, 228, 214);
+}
+.card2 button{
+    background: rgb(9, 161, 92);
+}
+.card3{
+    background: rgb(247, 235, 207);
+}
+.card3 button{
+    background: rgb(255, 194, 57)
+}
+
+.section2_clng{
+    width: 1010px;
+    height: 202px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section2_clng p{
+    width: 903px;
+    height: 76px;
+    margin: 38px 0px 0px 30px;
+    /*font*/
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section2_clng img{
+    height: 43px;
+    width: 35px;
+    position: absolute;
+    padding:20px 30px;
+}
+.section2_clng h2{
+    width: 973px;
+    height: 19px;
+    margin: 0px 0px 0px 30px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section2_clng h6{
+    margin:  0px 0px 38px 30px;
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
