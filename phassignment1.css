@@ -5,11 +5,12 @@ body{
     margin: 0px;
     background: rgb(245, 245, 245);
 }
+/*section 1*/
 
 .banar1{
     width: 1011px;
     height: 442px;
-    margin: 60px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -83,6 +84,7 @@ body{
     margin: 0px;
 }
 
+/*section 2*/
 
 .section2{
     width: 1011px;
@@ -265,7 +267,7 @@ body{
 .section3{
     height: 1088px;
     width: 1010px;
-    margin: 60px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -377,6 +379,208 @@ body{
     border-radius: 6px;
     background: rgb(0, 106, 80);
     border: none;
+    /*font*/
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+/*section 4*/
+
+.section4{
+    width: 1011px;
+    height: 367px;
+    margin: 80px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4 h1{
+    width: 1000px;
+    height: 38px;
+    padding: 0px;
+    margin: 0px;
+    /*font*/
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section4 p{
+    width: 1000px;
+    height: 38px;
+    padding: 0px;
+    margin: 0px;
+    /*font*/
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section4_opt{
+    width: 846px;
+    height: 101px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 101px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 13px;
+    background-color:rgb(198, 228, 214);
+    /* font */
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.radio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 199px;
+    height: 101px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    /* font */
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+.section4 input{
+    width: 815px;
+    height: 51px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: none;
+    /*font*/
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+.section4 button{
+    width: 119px;
+    height: 44px;
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+    /*font*/
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+/*section 5*/
+.section5{
+    width: 1011px;
+    height: 312px;
+    border-radius: 19px;
+    background: rgb(198, 228, 214);
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5_cnt{
+    width: 592px;
+    height: 206px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.section5_cnt h1{
+    width: 492px;
+    height: 38px;
+    padding: 0px;
+    margin: 0px;
+    /*font*/
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.section5_cnt p{
+    width: 492px;
+    height: 38px;
+    padding: 0px;
+    margin: 0px;
+    /*font*/
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.section5_inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section5_inp input{
+    width: 474px;
+    height: 44px;
+    margin:0px;
+    padding: 0px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    background: rgb(255, 255, 255);
+    /*font*/
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section5_inp button{
+    width: 118px;
+    height: 44px;
+    margin:0px;
+    padding: 0px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    background: rgb(0, 106, 80);
     /*font*/
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
