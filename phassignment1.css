@@ -1,10 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+body,html{
     padding: 0px;
     margin: 0px;
     background: rgb(245, 245, 245);
 }
+/*nav bar*/
+nav{
+    width: auto;
+    height: 80px;
+    padding: 0px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 106, 80);
+    
+}
+nav h1{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+nav span{
+    color: rgb(243, 2, 0);
+}
+nav button{
+    width: 93px;
+    height: 42px;
+    /*font*/
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 6px;
+}
+.nav_txt{
+    width:1010px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_txt ul{
+    height: fit-content ;
+    width: 500px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_txt a{
+    color: white;
+    text-decoration: none;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
 /*section 1*/
 
 .banar1{
@@ -588,4 +655,35 @@ body{
     font-weight: 600;
     line-height: 17px;
     letter-spacing: 0%;
+}    
+/*footer*/
+footer{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 106, 80);
+
+}
+.footer_content{
+    width: 600px;
+    height:150px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_content h1{
+    color: white;
+    font-family: Fira Sans;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.footer_content img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
